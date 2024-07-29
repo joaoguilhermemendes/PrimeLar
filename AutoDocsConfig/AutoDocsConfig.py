@@ -11,7 +11,7 @@ def PortugueseMonth(month_name):
 
     return portuguese_months[english_months.index(month_name)]
 
-files_folder1 = [ "anx3.docx", 
+files_folder1 = ["anx3.docx", 
                  "anx4.docx", 
                  "anx5.docx", 
                  "anx6.docx", 
@@ -37,7 +37,8 @@ pdf_names = []
 
 certame = str(input("Número de certame '0000/0000': "))
 setor = str(input("Laranjal (S/N): ")).upper()
-company = "CEDAE - Companhia Estadual de Águas e Esgoto do rio de Janeiro"
+company = "CEDAE - Companhia Estadual de Águas e Esgoto do Rio de Janeiro"
+#company = "BASE AEREA NAVAL DE SAO PEDRO DA ALDEIA/RJ"
 object = str(input("Objeto do certame: "))
 
 current_date = datetime.now()
