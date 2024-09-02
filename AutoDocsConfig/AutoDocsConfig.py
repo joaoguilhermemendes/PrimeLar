@@ -159,18 +159,35 @@ for file in pdf_names:
     pag.sleep(0.2)
     pag.press('tab')
     pag.sleep(0.2)
-    pag.press('enter') #Escolhe o certificado e clica em ASSINAR
+    pag.press('enter') # Escolhe o certificado e clica em CONTINUAR
     pag.sleep(default_time)
 
-    pag.write("30103010") #Escreve a senha
-    pag.sleep(default_time) 
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2)
+    pag.press('tab')
+    pag.sleep(0.2) 
+    pag.press('enter') # Clica em ASSINAR
+    pag.sleep(default_time)
+    pag.sleep(default_time)
 
-    pag.press('tab')
-    pag.sleep(0.2)
-    pag.press('tab')
-    pag.sleep(0.2)
-    pag.press('enter') #Clica em ASSINAR
-    pag.sleep(5)
+    # pag.write("30103010") #Escreve a senha
+    # pag.sleep(default_time) 
+
+    # pag.press('tab')
+    # pag.sleep(0.2)
+    # pag.press('tab')
+    # pag.sleep(0.2)
+    # pag.press('enter') #Clica em ASSINAR
 
     pag.press('right')
     pag.sleep(default_time) 
