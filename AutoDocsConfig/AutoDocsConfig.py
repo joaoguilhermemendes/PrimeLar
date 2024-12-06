@@ -95,10 +95,11 @@ def AssinarDocumentos(setor, nome_arquivos_padrao, nome_arquivos_laranjal):
 
         pag.moveTo(x=1101, y=1132) #Ponto para descida
         pag.sleep(default_time)
-        pag.scroll(-20000)
+        pag.sleep(default_time)
+        pag.scroll(-20000)  # Descer
         pag.sleep(default_time)
 
-        pag.moveTo(x=290, y=307) #Usar um certtificado
+        pag.moveTo(x=290, y=307) #Usar um certificado
         pag.sleep(default_time)
         pag.click()
         pag.sleep(default_time)
@@ -166,6 +167,10 @@ def AssinarDocumentos(setor, nome_arquivos_padrao, nome_arquivos_laranjal):
             keyboard.press_and_release('caps lock')
         pag.press('caps lock')
         pag.press('right')
+        pag.press('left')
+        pag.press('left')
+        pag.press('left')
+        pag.press('left')
         pag.sleep(default_time) 
         pag.write('_ASS') #Renomear arquivo
         pag.sleep(default_time) 
